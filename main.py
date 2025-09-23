@@ -1,5 +1,6 @@
 import pygame
 from constants import *
+from CircleShape import *
 
 def main():
     print("Starting Asteroids!")
