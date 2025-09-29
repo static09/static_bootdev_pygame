@@ -44,8 +44,7 @@ def main():
         for obj in asteroids_group:
             for bullet in shot_group:
                 if CircleShape.collisions(bullet, obj):
-                    print("HIT!")
-                    obj.kill()
+                    obj.split()
                     bullet.kill()
                 else:
                     pass
